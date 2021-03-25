@@ -1,0 +1,21 @@
+{
+  "name": "ca",
+  "version": "1.0.0",
+  "description": "CA2 of CAP919",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "hbs": "^4.1.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Arun Pratap Singh",
+  "license": "ISC"
+}
