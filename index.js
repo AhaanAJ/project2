@@ -17,7 +17,9 @@ app.engine('hbs', hbs({extname:'hbs', defaultLayout:'layouts', layoutsDir:__dirn
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
-
+app.get('/',(req,res)=>{
+    res.redirect('/sale')
+})
 
 app.get('/sale',(req,res)=>{
     res.render('sale',{
