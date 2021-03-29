@@ -1,48 +1,48 @@
-{{> nav }}
+{{> aj }}
 
 <div class="delivery">
-    <h1>Return Section</h1>
+    <h1>Return Segment</h1>
     <table>
         <tr>
-            <td class="pr">S.no</td>
-            <td class="pr">Name</td>
-            <td class="pr">Product name</td>
-            <td class="pr">Status</td>
+            <td class="heading">S.no</td>
+            <td class="heading">Name</td>
+            <td class="heading">Brand Name</td>
+            <td class="heading">Status</td>
         </tr>
 
 
         <tr>
             <td>1</td>
-            <td>Arun Pratap Singh</td>
-            <td>Laptop</td>
-            <td class="not">Not done</td>
+            <td>David</td>
+            <td>Inter Miami</td>
+            <td class="no">No</td>
         </tr>
 
          <tr>
             <td>2</td>
-            <td>Ashu Rajput</td>
-            <td>Desktop</td>
-            <td class="live">done</td>
+            <td>Lebron</td>
+            <td>Nba star</td>
+            <td class="yes">Yes</td>
         </tr>
 
         <tr>
             <td>3</td>
-            <td>Amit</td>
-            <td>Graphic Card</td>
-            <td class="live">done</td>
+            <td>Cristiano</td>
+            <td>Nike</td>
+            <td class="yes">Yes</td>
         </tr>
 
          <tr>
             <td>4</td>
-            <td>Kapil Chaudhary</td>
-            <td>iPhone 11</td>
-            <td class="live">done</td>
+            <td>NeymarJr</td>
+            <td>Football</td>
+            <td class="yes">Yes</td>
         </tr>
          <tr>
             <td>5</td>
-            <td>Deep Money</td>
-            <td>Cricket Bat</td>
-            <td class="not">Not done</td>
+            <td>Mbappe</td>
+            <td>Ninja turtle </td>
+            <td class="no">No</td>
         </tr>
     </table>
 </div>
@@ -51,11 +51,6 @@
     h1{
         margin: 0px 260px;
         font-weight: 900;
-        border-bottom: 1px solid #333;
-        border-left: 1px solid #333;
-        border-right: 1px solid #333;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
         padding: 10px 10px;
         text-align: center;
     }
@@ -67,30 +62,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 20px;
     }
     td{
         padding: 5px 20px;
         border: 1px solid rgb(155, 155, 155);
     }
-    .pr{
+    .heading{
         height: 30px;
         font-size: 15px;
         font-weight: 900;
         border: 1px solid rgb(151, 151, 151);
-        background: cornsilk;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+        background: rgb(0, 0, 0);
+        color:whitesmoke
     }
-    .not{
-        color: rgb(255, 11, 11);
+    .no{
+        color: rgb(73, 4, 4);
     }
-    .live{
+    .yes{
         color: rgb(17 167 16);
     }
 </style>
 
 
 
-<script>
-    document.getElementById('return').classList.add('active')
-</script>
